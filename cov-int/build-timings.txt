@@ -1,0 +1,35 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: cov-build --dir cov-int make
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                             40703          1
+  create_or_open emit DB                 16          1
+    open emit DB                         16          1
+  add_string_to_table                     0          6
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         73
+  Prepare capture                        16          1
+  Running build command               39359          1
+  parse_xml_config_file                  16          1
+  generate_generic_compiler_map         391          1
+    handle_derived_compiler              15         16
+  SecurityDA                             78          1
+  TUInfo::getPrimarySFRow                 0          2
+  (left over)                           827
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                             40703          1
+parse_xml_config_file                    16          1
+create_or_open emit DB                   16          1
+open emit DB                             16          1
+add_string_to_table                       0         79
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                          16          1
+Running build command                 39359          1
+generate_generic_compiler_map           391          1
+handle_derived_compiler                  15         16
+SecurityDA                               78          1
+TUInfo::getPrimarySFRow                   0          2

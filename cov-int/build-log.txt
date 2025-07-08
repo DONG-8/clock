@@ -1,0 +1,1359 @@
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> cov-build 2024.6.1 (build d59b675bea p-2024.6-push-53)
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> Coverity Build Capture (64-bit) version 2024.6.1 on Windows 11 Professional, 64-bit (build 26100)
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> Internal version numbers: d59b675bea p-2024.6-push-53
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> Dumping from hostname : FRONTEND-DJP
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> Platform info: Windows 11 Professional, 64-bit (build 26100)
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> cov-build command: cov-build --dir cov-int make 
+2025-07-08T01:43:23.851486Z|cov-build|25772|info|> cov-build expanded command: cov-build --dir cov-int make 
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> build command: C:\MinGW\msys\1.0\bin\make.exe
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> thunk command: make.exe
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_BUILD_COMMAND to "C:\MinGW\msys\1.0\bin\make.exe" 
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_ORIG_BUILD_COMMAND to make.exe
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int make 
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set MSBUILDDISABLENODEREUSE to 1
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set UseSharedCompilation to false.
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_BIN to C:/Users/djpark/Desktop/cov-analysis-win64-2024.6.1/bin
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_SITE_CC to *-g++;*-gcc;ar;g++;g++-*;gcc;gcc-*;ld
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to 
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_TEMP to C:/Users/djpark/AppData/Local/Temp/cov-djpark/ac622d86830779ac4645bb8c29c8c8aa
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_COMMON_TEMP to C:\Users\djpark\AppData\Local\Temp
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_IDIR to C:/Users/djpark/Desktop/clock/cov-int
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-fb035d5d53626369b6e15e3a654ae033.s
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-fb035d5d53626369b6e15e3a654ae033.m
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_OUTPUT_ENCODING to windows-949-2000
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_SYSTEM_ENCODING to windows-949-2000
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_EMIT to C:/Users/djpark/Desktop/clock/cov-int/emit
+2025-07-08T01:43:23.859558Z|cov-build|25772|info|> Set COVERITY_USING_CYGWIN to False
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Set COVERITY_EXEC_LOG_DIR to C:\Users\djpark\Desktop\clock\cov-int\exec-log\ac622d86830779ac4645bb8c29c8c8aa
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Dumping configuration:
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> User/default configuration:
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: command-line
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: prevent
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: dir Value: C:\Users\djpark\Desktop\clock\cov-int
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-4\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-4\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-5\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-6\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-5\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-6\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ld-config-1\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: include Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ar-config-1\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-4\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_name Value: gcc
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_translator Value: gcc
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_lang Value: C
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: gcc-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-4/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-4/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++cc-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-4/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: md5 Value: b4c4305659af3d838ca0549230e365be
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-4\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_name Value: g++
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_translator Value: g++
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_lang Value: C++
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++-g++-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-4/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++cc-g++-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-4/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: md5 Value: c6ca857625111c16da37c5c62fff595a
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-5\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_name Value: gcc-*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_translator Value: gcc
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_lang Value: C
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: gcc-gcc-*-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-5/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++-gcc-*-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-5/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++cc-gcc-*-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-5/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: md5 Value: 823ce9091993144203743092e10d3d22
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-6\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_name Value: *-gcc
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_translator Value: gcc
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_lang Value: C
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: gcc-*-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-6/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++-*-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-6/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++cc-*-gcc-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-gcc-config-6/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: md5 Value: a3e605b0b9c275275ed43838ced26736
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-5\coverity_config.xml
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_name Value: g++-*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_translator Value: g++
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_lang Value: C++
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++-g++-*-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-5/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: id Value: g++cc-g++-*-.*
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-5/../user_nodefs.h
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|>   Node: md5 Value: 9a6e7b1d2c9d095edb052a45bfd8d498
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.860557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-6\coverity_config.xml
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_name Value: *-g++
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_translator Value: g++
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_lang Value: C++
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_generic Value: gnu
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: id Value: g++-*-g++-.*
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-6/../user_nodefs.h
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: id Value: g++cc-*-g++-.*
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-g++-config-6/../user_nodefs.h
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: md5 Value: 43f98a3fd68b26b6da176928b3661de7
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ld-config-1\coverity_config.xml
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_name Value: ld
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_translator Value: ld
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_lang Value: C++
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_generic Value: ld
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: id Value: ld-ld-.*
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ld-config-1/../user_nodefs.h
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: md5 Value: d171bb5ff10bd09b28c242890888c927
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> Configuration read from: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ar-config-1\coverity_config.xml
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> Node: coverity
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: cit_version Value: 1
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>     Node: build
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: compiler
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: template_compiler Value: true
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_name Value: ar
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: config_arg Value: C:\MinGW\bin
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_translator Value: ar
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_lang Value: C++
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: comp_generic Value: ar
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>       Node: options
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: id Value: ar-ar-.*
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\config\template-ar-config-1/../user_nodefs.h
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>         Node: begin_command_line_config
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|>   Node: md5 Value: 6193918b139d4c143cc768e179c2c0b9
+2025-07-08T01:43:23.861557Z|cov-build|25772|info|> 
+2025-07-08T01:43:23.957530Z|cov-internal-capture|17224|info|> Running build command: "C:\MinGW\msys\1.0\bin\make.exe" 
+2025-07-08T01:43:23.957530Z|cov-internal-capture|17224|info|> Launching in directory C:/Users/djpark/Desktop/clock
+2025-07-08T01:43:23.960531Z|cov-internal-capture|17224|info|> EXECUTING: "C:\MinGW\msys\1.0\bin\make.exe" 
+2025-07-08T01:43:23.996274Z|cov-internal-capture|17224|info|> EXECUTING: C:\MinGW\bin\gcc.exe -Wall -Wextra -c main.c -o main.o
+2025-07-08T01:43:24.037263Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -iprefix c:\mingw\bin\../lib/gcc/mingw32/6.3.0/ main.c -quiet -dumpbase main.c -mtune=generic -march=i586 -auxbase-strip main.o -Wall -Wextra -o C:\Users\djpark\AppData\Local\Temp\cckpZQoa.s
+2025-07-08T01:43:24.112302Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -o main.o C:\Users\djpark\AppData\Local\Temp\cckpZQoa.s
+2025-07-08T01:43:24.139644Z|cov-internal-capture|17224|info|> CWD: C:\Users\djpark\Desktop\clock\
+2025-07-08T01:43:24.139644Z|cov-internal-capture|17224|info|> COMPILING: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\bin\cov-translate.exe "C:\MinGW\bin\gcc.exe" -Wall -Wextra -c main.c -o main.o
+2025-07-08T01:43:24.139644Z|cov-internal-capture|17224|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-fb035d5d53626369b6e15e3a654ae033.s
+2025-07-08T01:43:24.232564Z|cov-translate|5580|output|> Encountered compiler invocation for first time, configuring it: c:/mingw/bin/gcc
+2025-07-08T01:43:24.232564Z|cov-translate|5580|output|> [STATUS] Using comptype gcc
+2025-07-08T01:43:24.513418Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\gcc as a C compiler
+2025-07-08T01:43:24.544469Z|cov-translate|5580|output|> [STATUS] gcc-config-0: Running sanity tests on native compiler
+2025-07-08T01:43:31.086218Z|cov-translate|5580|output|> [STATUS] gcc-config-0: Detecting size and alignment of fundamental types.
+2025-07-08T01:43:31.086218Z|cov-translate|5580|output|> [STATUS] gcc-config-0: Retrieving values for macros
+2025-07-08T01:43:31.277815Z|cov-translate|5580|output|> [STATUS] gcc-config-0: Running config probes
+2025-07-08T01:43:31.277815Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\gcc as a C++ compiler
+2025-07-08T01:43:31.306528Z|cov-translate|5580|output|> [STATUS] g++-config-0: Running sanity tests on native compiler
+2025-07-08T01:43:39.266425Z|cov-translate|5580|output|> [STATUS] g++-config-0: Detecting size and alignment of fundamental types.
+2025-07-08T01:43:39.266425Z|cov-translate|5580|output|> [STATUS] g++-config-0: Retrieving values for macros
+2025-07-08T01:43:39.451239Z|cov-translate|5580|output|> [STATUS] g++-config-0: Running config probes
+2025-07-08T01:43:39.451239Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\gcc as a C compiler
+2025-07-08T01:43:39.474897Z|cov-translate|5580|output|> [STATUS] g++cc-config-0: Running sanity tests on native compiler
+2025-07-08T01:43:46.194903Z|cov-translate|5580|output|> [STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+2025-07-08T01:43:46.194903Z|cov-translate|5580|output|> [STATUS] g++cc-config-0: Retrieving values for macros
+2025-07-08T01:43:46.402759Z|cov-translate|5580|output|> [STATUS] g++cc-config-0: Running config probes
+2025-07-08T01:43:46.402759Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\g++ as a C++ compiler
+2025-07-08T01:43:46.423552Z|cov-translate|5580|output|> [STATUS] g++-config-1: Running sanity tests on native compiler
+2025-07-08T01:43:54.522452Z|cov-translate|5580|output|> [STATUS] g++-config-1: Detecting size and alignment of fundamental types.
+2025-07-08T01:43:54.522452Z|cov-translate|5580|output|> [STATUS] g++-config-1: Retrieving values for macros
+2025-07-08T01:43:54.713951Z|cov-translate|5580|output|> [STATUS] g++-config-1: Running config probes
+2025-07-08T01:43:54.713951Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\g++ as a C compiler
+2025-07-08T01:43:54.732472Z|cov-translate|5580|output|> [STATUS] g++cc-config-1: Running sanity tests on native compiler
+2025-07-08T01:44:01.624964Z|cov-translate|5580|output|> [STATUS] g++cc-config-1: Detecting size and alignment of fundamental types.
+2025-07-08T01:44:01.624964Z|cov-translate|5580|output|> [STATUS] g++cc-config-1: Retrieving values for macros
+2025-07-08T01:44:01.817880Z|cov-translate|5580|output|> [STATUS] g++cc-config-1: Running config probes
+2025-07-08T01:44:01.817880Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\ld as a C++ linker
+2025-07-08T01:44:01.855249Z|cov-translate|5580|output|> [STATUS] ld-config-0: Running config probes
+2025-07-08T01:44:01.855249Z|cov-translate|5580|output|> * Configuring c:\mingw\bin\ar as a C++ linker
+2025-07-08T01:44:01.858246Z|cov-translate|5580|output|> Added template compiler configuration instance C:/Users/djpark/Desktop/clock/cov-int/emit/FRONTEND-DJP/config/1ff8038cf9e70491f86233bdf3e80518/coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-1\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-1\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\ld-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: include Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\ar-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity_config.xml
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_name Value: gcc
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_translator Value: gcc
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_lang Value: C
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C compiler
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_next_type Value: g++
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_generic Value: gnu
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: comp_require
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: id Value: gcc-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: version Value: 6.3.0
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: is_compiler Value: true
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: target_platform Value: mingw
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: id Value: gcc-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: template_config_option_id Value: gcc-gcc-.*
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: compile_options
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/include
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/mingw32/include
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -E
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -v
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -dM
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -E
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -o.+
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -c
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -Werror
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_remove_next_arg Value: -o
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -E
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -U__BLOCKS__
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -xc
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_compile_switch Value: -C
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: preprocess_output Value: -
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: dryrun_output Value: 2
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-compiler-compat.h
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: macro_pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-macro-compat.h
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --coverity_config_md5=50b1a563c9da57ea423482bb769135b4
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --fixed_point
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_int
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: -w
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --comp_ver
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: 6.3.0
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --size_t_type=j
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_sizes=x8li4s2e12d8fP4
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_alignments=x8li4s2e4d8fP4
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --char_bit_size=8
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --restrict
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --wchar_t_type=t
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_multiline_string
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_trigraphs
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ignore_calling_convention
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --c11
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_80bit_float
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_float
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --allow__bool
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --macro_stack_pragmas
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --inline_keyword
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_macro
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_next_macro
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.cpp$
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0/../user_nodefs.h
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: pch_options
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>           Node: archetype Value: gcc
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../mingw32/6.3.0/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/mingw32/6.3.0/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|> 
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o
+2025-07-08T01:44:01.868272Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: expand
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: replace_arg_regex
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>               Node: replace Value: @(.*)
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>               Node: with Value: --coverity_resp_file=$1
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: intern_trans Value: gnu_pre_translate
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPATH
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: --c
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: md5 Value: d50f868910977669eb1ffbe0cb2cba2c
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-0\coverity_config.xml
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_name Value: gcc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_translator Value: g++
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_lang Value: C++
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C++ Compiler
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_next_type Value: g++cc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_generic Value: gnu
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_require
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: id Value: g++-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: version Value: 6.3.0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: is_compiler Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: target_platform Value: mingw
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: id Value: g++-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: template_config_option_id Value: g++-gcc-.*
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: compile_options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/mingw32/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -E
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -v
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -dM
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -E
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -o.+
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -c
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -Werror
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_remove_next_arg Value: -o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -xc++
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -E
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -U__BLOCKS__
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_compile_switch Value: -C
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: preprocess_output Value: -
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_output Value: 2
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-0\coverity-compiler-compat.h
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: macro_pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-0\coverity-macro-compat.h
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --coverity_config_md5=2310d50deb7b045739046c6d269303a3
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_int
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: -w
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --comp_ver
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: 6.3.0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --size_t_type=j
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2e12d8fP4
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2e4d8fP4
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --char_bit_size=8
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --wchar_t_keyword
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_multiline_string
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_trigraphs
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --calling_convention_group
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: default,cdecl,vectorcall
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_80bit_float
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_float
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --macro_stack_pragmas
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --exceptions
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --arg_dependent_overload
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --inline_keyword
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_macro
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_next_macro
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.cpp$
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-0/../user_nodefs.h
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: pch_options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: archetype Value: gcc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../mingw32/6.3.0/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/mingw32/6.3.0/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|> 
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: --c++
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: expand
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: replace_arg_regex
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>               Node: replace Value: @(.*)
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>               Node: with Value: --coverity_resp_file=$1
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: intern_trans Value: gnu_pre_translate
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPATH
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: md5 Value: cc893d2a66b2b832e2bfc6fb809c5e0b
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-0\coverity_config.xml
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_name Value: gcc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_translator Value: g++cc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_lang Value: C
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C++ Compiler
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_generic Value: gnu
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: comp_require
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: id Value: g++cc-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: version Value: 6.3.0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: is_compiler Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: target_platform Value: mingw
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: id Value: g++cc-gcc-6.3.0-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: template_config_option_id Value: g++cc-gcc-.*
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: compile_options
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/mingw32/include
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -xc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -E
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -v
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -xc
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -dM
+2025-07-08T01:44:01.869271Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -E
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -o.+
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -c
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -Werror
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_next_arg Value: -o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -E
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -U__BLOCKS__
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -xc
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_compile_switch Value: -C
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_output Value: -
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dryrun_output Value: 2
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-0\coverity-compiler-compat.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: macro_pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-0\coverity-macro-compat.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --coverity_config_md5=2abae0a7650065d2de4f0e3a2a3a5ed7
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --fixed_point
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_int
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: -w
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --comp_ver
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: 6.3.0
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --size_t_type=j
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_sizes=x8li4s2e12d8fP4
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_alignments=x8li4s2e4d8fP4
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --char_bit_size=8
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --restrict
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --wchar_t_type=t
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_multiline_string
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_trigraphs
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ignore_calling_convention
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --c11
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_80bit_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --allow__bool
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --macro_stack_pragmas
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --inline_keyword
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_next_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.cpp$
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-0/../user_nodefs.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: pch_options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: archetype Value: gcc
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|> 
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: expand
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: replace_arg_regex
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>               Node: replace Value: @(.*)
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>               Node: with Value: --coverity_resp_file=$1
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: intern_trans Value: gnu_pre_translate
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPATH
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: --c
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>   Node: md5 Value: 78d49670a2bde8d9cd85d9a5634f9f98
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-1\coverity_config.xml
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_name Value: g++
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_translator Value: g++
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_lang Value: C++
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C++ Compiler
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_next_type Value: g++cc
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_generic Value: gnu
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: comp_require
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: id Value: g++-g++-6.3.0-1ff8038cf9e70491f86233bdf3e80518-1
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: version Value: 6.3.0
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: is_compiler Value: true
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: target_platform Value: mingw
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: id Value: g++-g++-6.3.0-1ff8038cf9e70491f86233bdf3e80518-1
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: template_config_option_id Value: g++-g++-.*
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: compile_options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/include
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/mingw32/include
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -E
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -v
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -dM
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -E
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -o.+
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -c
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -Werror
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_remove_next_arg Value: -o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -xc++
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -E
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -U__BLOCKS__
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_compile_switch Value: -C
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: preprocess_output Value: -
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: dryrun_output Value: 2
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-1\coverity-compiler-compat.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: macro_pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-1\coverity-macro-compat.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --coverity_config_md5=2310d50deb7b045739046c6d269303a3
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_int
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: -w
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --comp_ver
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: 6.3.0
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --size_t_type=j
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2e12d8fP4
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2e4d8fP4
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --char_bit_size=8
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --wchar_t_keyword
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_multiline_string
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_trigraphs
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --calling_convention_group
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: default,cdecl,vectorcall
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_80bit_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_float
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --macro_stack_pragmas
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --exceptions
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --arg_dependent_overload
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --inline_keyword
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_next_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.cpp$
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++-config-1/../user_nodefs.h
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: pch_options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>           Node: archetype Value: gcc
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|> 
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.870270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: --c++
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: expand
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: replace_arg_regex
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>               Node: replace Value: @(.*)
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>               Node: with Value: --coverity_resp_file=$1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: intern_trans Value: gnu_pre_translate
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPATH
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: md5 Value: 094b73a1e870c24d101d591f74e641d7
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-1\coverity_config.xml
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_name Value: g++
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_translator Value: g++cc
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_lang Value: C
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C++ Compiler
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_generic Value: gnu
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_require
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: g++cc-g++-6.3.0-1ff8038cf9e70491f86233bdf3e80518-1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: version Value: 6.3.0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_compiler Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: target_platform Value: mingw
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: g++cc-g++-6.3.0-1ff8038cf9e70491f86233bdf3e80518-1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: template_config_option_id Value: g++cc-g++-.*
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: compile_options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/include
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: sysinclude_dir Value: c:/mingw/mingw32/include
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -xc
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -E
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dryrun_switch Value: -v
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -xc
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -dM
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dump_macros_arg Value: -E
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -o.+
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -c
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_remove_arg Value: -Werror
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_remove_next_arg Value: -o
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -E
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -U__BLOCKS__
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_switch Value: -xc
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_compile_switch Value: -C
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: preprocess_output Value: -
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: dryrun_output Value: 2
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-1\coverity-compiler-compat.h
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: macro_pre_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-1\coverity-macro-compat.h
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --coverity_config_md5=2abae0a7650065d2de4f0e3a2a3a5ed7
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --fixed_point
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_int
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: -w
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --comp_ver
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: 6.3.0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --size_t_type=j
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_sizes=x8li4s2e12d8fP4
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --type_alignments=x8li4s2e4d8fP4
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --char_bit_size=8
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --restrict
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --wchar_t_type=t
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_multiline_string
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_trigraphs
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --ignore_calling_convention
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --c11
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_80bit_float
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --enable_128bit_float
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --allow__bool
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --macro_stack_pragmas
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --inline_keyword
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_macro
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_include_next_macro
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: prepend_arg Value: --no_predefines
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: skip_file Value: conftest\.cpp$
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: opt_preinclude_file Value: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\g++cc-config-1/../user_nodefs.h
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pch_options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: archetype Value: gcc
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../mingw32/6.3.0/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/mingw32/6.3.0/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/mingw32/6.3.0/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib/
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> 
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc_s.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgcc.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingwex.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmsvcrt.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libkernel32.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmoldname.a
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: implicit_link_input Value: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: expand
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: replace_arg_regex
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>               Node: replace Value: @(.*)
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>               Node: with Value: --coverity_resp_file=$1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: intern_trans Value: gnu_pre_translate
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: CPATH
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: pre_prepend_arg Value: --c
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: md5 Value: d6f0a6c6c3df9d2f20e354c35af61b0b
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\ld-config-0\coverity_config.xml
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_name Value: ld
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_translator Value: ld
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_lang Value: C++
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_desc Value: GNU C/C++ Linker
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_generic Value: ld
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: ld-ld-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_compiler Value: false
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: ld-ld-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: template_config_option_id Value: ld-ld-.*
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /mingw/mingw32/lib
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /mingw/lib
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/local/lib
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /lib
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: library_search_path Value: /usr/lib
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: md5 Value: 8fffdf8de2799ecc65f43a2b685bd311
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Configuration read from: C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\ar-config-0\coverity_config.xml
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|> Node: coverity
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: cit_version Value: 1
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>     Node: build
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: compiler
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_name Value: ar
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_dir Value: c:\mingw\bin
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_translator Value: ar
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_lang Value: C++
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_front_end Value: cov-emit
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_desc Value: UNIX-like 'ar` archiver
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: comp_generic Value: ar
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: ar-ar-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_compiler Value: false
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: is_linker Value: true
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>       Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: id Value: ar-ar-1ff8038cf9e70491f86233bdf3e80518-0
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: template_config_option_id Value: ar-ar-.*
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: link_options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: pre_trans
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>           Node: options
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>             Node: intern_trans Value: ar_pre_translate
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>         Node: begin_command_line_config
+2025-07-08T01:44:01.871270Z|cov-translate|5580|output|>   Node: md5 Value: 3d854fbf7ab6537b22f250cc6aa4b0cd
+2025-07-08T01:44:01.872272Z|cov-translate|5580|output|> COV_TRANSLATE EXPANDED ARGS: "-Wall" "-Wextra" "-c" "main.c" "-o" "main.o"
+2025-07-08T01:44:01.883343Z|cov-translate|5580|output|> [STATUS] Compiling main.c
+2025-07-08T01:44:01.883343Z|cov-translate|5580|output|> C:/Users/djpark/Desktop/cov-analysis-win64-2024.6.1/bin/cov-emit.exe --dir=C:\Users\djpark\Desktop\clock\cov-int --ignore_path=C:\Users\djpark\AppData\Local\Temp\cov-djpark\ac622d86830779ac4645bb8c29c8c8aa\cov-configure --ignore_path=C:\Users\djpark\AppData\Local\Temp\cov-djpark\ac622d86830779ac4645bb8c29c8c8aa\cov-djpark\bbd4371409b867d419183ccf87a78acc --pre_preinclude C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-macro-compat.h --pre_preinclude C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-compiler-compat.h --c --coverity_config_md5=50b1a563c9da57ea423482bb769135b4 --fixed_point --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --enable_128bit_int --no_predefined_cplusplus -w --no_predefines --comp_ver 6.3.0 --char_bit_size=8 --restrict --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --c11 --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --has_include_macro --has_include_next_macro --has_cpp_attribute_macro --no_predefines --emit_pch_dependencies --builtin_emulation --gcc --c11 --gnu_version 60300 --uliterals --sys_include=c:/mingw/lib/gcc/mingw32/6.3.0/include --sys_include=c:/mingw/include --sys_include=c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed --sys_include=c:/mingw/mingw32/include -D__NO_INLINE__ --type_sizes=e12dx8Pfil4s2 --type_alignments=dx8Pefil4s2 --size_t_type=j --wchar_t_type=t --ptrdiff_t_type=i main.c 
+2025-07-08T01:44:02.306608Z|cov-translate|5580|output|> Emit for file 'C:/Users/djpark/Desktop/clock/main.c' (TU 1) complete.
+2025-07-08T01:44:02.325140Z|cov-translate|5580|output|> 
+2025-07-08T01:44:02.424460Z|cov-internal-capture|17224|info|> EXECUTING: C:\MinGW\bin\gcc.exe -Wall -Wextra -c clock.c -o clock.o
+2025-07-08T01:44:02.461670Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -iprefix c:\mingw\bin\../lib/gcc/mingw32/6.3.0/ clock.c -quiet -dumpbase clock.c -mtune=generic -march=i586 -auxbase-strip clock.o -Wall -Wextra -o C:\Users\djpark\AppData\Local\Temp\ccKfsSiF.s
+2025-07-08T01:44:02.519035Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -o clock.o C:\Users\djpark\AppData\Local\Temp\ccKfsSiF.s
+2025-07-08T01:44:02.545963Z|cov-internal-capture|17224|info|> CWD: C:\Users\djpark\Desktop\clock\
+2025-07-08T01:44:02.545963Z|cov-internal-capture|17224|info|> COMPILING: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\bin\cov-translate.exe "C:\MinGW\bin\gcc.exe" -Wall -Wextra -c clock.c -o clock.o
+2025-07-08T01:44:02.545963Z|cov-internal-capture|17224|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-fb035d5d53626369b6e15e3a654ae033.s
+2025-07-08T01:44:02.589453Z|cov-translate|7080|output|> Using cached template compiler configuration instance C:/Users/djpark/Desktop/clock/cov-int/emit/FRONTEND-DJP/config/1ff8038cf9e70491f86233bdf3e80518/coverity_config.xml
+2025-07-08T01:44:02.596463Z|cov-translate|7080|output|> COV_TRANSLATE EXPANDED ARGS: "-Wall" "-Wextra" "-c" "clock.c" "-o" "clock.o"
+2025-07-08T01:44:02.606924Z|cov-translate|7080|output|> [STATUS] Compiling clock.c
+2025-07-08T01:44:02.606924Z|cov-translate|7080|output|> C:/Users/djpark/Desktop/cov-analysis-win64-2024.6.1/bin/cov-emit.exe --dir=C:\Users\djpark\Desktop\clock\cov-int --ignore_path=C:\Users\djpark\AppData\Local\Temp\cov-djpark\ac622d86830779ac4645bb8c29c8c8aa\cov-configure --ignore_path=C:\Users\djpark\AppData\Local\Temp\cov-djpark\ac622d86830779ac4645bb8c29c8c8aa\cov-djpark\5d400a2844eac716f8e3be37b9b8c02b --pre_preinclude C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-macro-compat.h --pre_preinclude C:\Users\djpark\Desktop\clock\cov-int\emit\FRONTEND-DJP\config\1ff8038cf9e70491f86233bdf3e80518\gcc-config-0\coverity-compiler-compat.h --c --coverity_config_md5=50b1a563c9da57ea423482bb769135b4 --fixed_point --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --enable_128bit_int --no_predefined_cplusplus -w --no_predefines --comp_ver 6.3.0 --char_bit_size=8 --restrict --gnu_carriage_return_line_terminator --no_multiline_string --no_trigraphs --ignore_calling_convention --c11 --enable_80bit_float --enable_128bit_float --allow__bool --macro_stack_pragmas --inline_keyword --has_include_macro --has_include_next_macro --has_cpp_attribute_macro --no_predefines --emit_pch_dependencies --builtin_emulation --gcc --c11 --gnu_version 60300 --uliterals --sys_include=c:/mingw/lib/gcc/mingw32/6.3.0/include --sys_include=c:/mingw/include --sys_include=c:/mingw/lib/gcc/mingw32/6.3.0/include-fixed --sys_include=c:/mingw/mingw32/include -D__NO_INLINE__ --type_sizes=e12dx8Pfil4s2 --type_alignments=dx8Pefil4s2 --size_t_type=j --wchar_t_type=t --ptrdiff_t_type=i clock.c 
+2025-07-08T01:44:02.893207Z|cov-translate|7080|output|> Emit for file 'C:/Users/djpark/Desktop/clock/clock.c' (TU 2) complete.
+2025-07-08T01:44:02.909411Z|cov-translate|7080|output|> 
+2025-07-08T01:44:02.986912Z|cov-internal-capture|17224|info|> EXECUTING: C:\MinGW\bin\gcc.exe main.o clock.o -o clock.exe
+2025-07-08T01:44:03.021351Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\djpark\AppData\Local\Temp\ccHRZVtc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o clock.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. main.o clock.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:03.053609Z|cov-internal-capture|17224|info|> EXECUTING: c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\djpark\AppData\Local\Temp\ccHRZVtc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o clock.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. main.o clock.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+2025-07-08T01:44:03.091232Z|cov-internal-capture|17224|info|> CWD: C:\Users\djpark\Desktop\clock\
+2025-07-08T01:44:03.091232Z|cov-internal-capture|17224|info|> COMPILING: C:\Users\djpark\Desktop\cov-analysis-win64-2024.6.1\bin\cov-translate.exe "C:\MinGW\bin\gcc.exe" main.o clock.o -o clock.exe
+2025-07-08T01:44:03.091232Z|cov-internal-capture|17224|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-fb035d5d53626369b6e15e3a654ae033.s
+2025-07-08T01:44:03.126351Z|cov-translate|18844|output|> Using cached template compiler configuration instance C:/Users/djpark/Desktop/clock/cov-int/emit/FRONTEND-DJP/config/1ff8038cf9e70491f86233bdf3e80518/coverity_config.xml
+2025-07-08T01:44:03.134279Z|cov-translate|18844|output|> COV_TRANSLATE EXPANDED ARGS: "main.o" "clock.o" "-o" "clock.exe"
+2025-07-08T01:44:03.145052Z|cov-translate|18844|output|> 
+2025-07-08T01:44:03.715179Z|cov-build|25772|info|> Invoking cov-security-da with commands: C:/Users/djpark/Desktop/cov-analysis-win64-2024.6.1/bin/cov-security-da.exe --dir C:/Users/djpark/Desktop/clock/cov-int
+2025-07-08T01:44:03.803245Z|cov-build|25772|info|> Dynamic analyzer took 94 ms
+2025-07-08T01:44:03.803245Z|cov-build|25772|info|> Build time (cov-build overall): 00:00:40.721874
+2025-07-08T01:44:03.803245Z|cov-build|25772|info|> 
+2025-07-08T01:44:03.804249Z|cov-build|25772|info|> Build time (C/C++ emits total): 00:00:38.513707
+2025-07-08T01:44:03.804249Z|cov-build|25772|info|> 
+2025-07-08T01:44:03.808249Z|cov-build|25772|info|> Emitted 2 C/C++ compilation units (100%) successfully
+2025-07-08T01:44:03.808249Z|cov-build|25772|info|> 
+2025-07-08T01:44:03.808249Z|cov-build|25772|info|> 2 C/C++ compilation units (100%) are ready for analysis
+2025-07-08T01:44:03.808249Z|cov-build|25772|info|> The cov-build utility completed successfully.
+2025-07-08T01:44:03.889956Z|cov-build|25772|info|> 

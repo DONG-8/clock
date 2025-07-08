@@ -1,0 +1,10 @@
+Translation unit:
+1 -> C:/Users/djpark/Desktop/clock/main.c
+cov-emit invocation time (seconds): 1
+cov-translate invocation time (seconds): 38
+cov-build invocation time (seconds): 40
+Translation unit:
+2 -> C:/Users/djpark/Desktop/clock/clock.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 40
